@@ -1,0 +1,12 @@
+{
+  "origin.origins_apocalypse.humano.name": "Human",
+  "origin.origins_apocalypse.humano.description": "An ordinary human doesn't change a thing, you idiot.",
+  "origin.origins_apocalypse.alien.name": "Alien",
+  "origin.origins_apocalypse.alien.description": "Beings from another planet, when they came to explore ours out of curiosity, were knocked out by gravity.",
+  "origin.origins_apocalypse.elfo.name": "Elf",
+  "origin.origins_apocalypse.elfo.description": "An incredibly long-lived breed, it can live for centuries.",
+  "origin.origins_apocalypse.orco.name": "Orc",
+  "origin.origins_apocalypse.orco.description": "Not very smart, green, and grumpy beings.",
+  "origin.origins_apocalypse.enano.name": "Dwarf",
+  "origin.origins_apocalypse.enano.description": "A race almost as long-lived as elves."
+}

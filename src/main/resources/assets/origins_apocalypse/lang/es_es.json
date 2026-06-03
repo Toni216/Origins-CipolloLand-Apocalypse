@@ -1,0 +1,12 @@
+{
+  "origin.origins_apocalypse.humano.name": "Humano",
+  "origin.origins_apocalypse.humano.description": "Un humano común, no cambia absolutamente nada, tolai.",
+  "origin.origins_apocalypse.alien.name": "Alien",
+  "origin.origins_apocalypse.alien.description": "Seres de otro planeta, cuando vinieron a explorar el nuestro con curiosidad, se ostiaron por la gravedad.",
+  "origin.origins_apocalypse.elfo.name": "Elfo",
+  "origin.origins_apocalypse.elfo.description": "Raza increíblemente longeva, puede llevar siglos viviendo.",
+  "origin.origins_apocalypse.orco.name": "Orco",
+  "origin.origins_apocalypse.orco.description": "Seres no muy listos, verdes y malhumorados.",
+  "origin.origins_apocalypse.enano.name": "Enano",
+  "origin.origins_apocalypse.enano.description": "Raza casi igual de longeva que los elfos."
+}

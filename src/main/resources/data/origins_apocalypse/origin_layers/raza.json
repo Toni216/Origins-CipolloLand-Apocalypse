@@ -1,0 +1,11 @@
+{
+  "order": 0,
+  "name": "Raza",
+  "origins": [
+    "origins_apocalypse:humano",
+    "origins_apocalypse:alien",
+    "origins_apocalypse:elfo",
+    "origins_apocalypse:orco",
+    "origins_apocalypse:enano"
+  ]
+}
