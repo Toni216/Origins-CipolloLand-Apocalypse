@@ -8,5 +8,7 @@
   "origin.origins_apocalypse.orco.name": "Orco",
   "origin.origins_apocalypse.orco.description": "Seres no muy listos, verdes y malhumorados.",
   "origin.origins_apocalypse.enano.name": "Enano",
-  "origin.origins_apocalypse.enano.description": "Raza casi igual de longeva que los elfos."
+  "origin.origins_apocalypse.enano.description": "Raza casi igual de longeva que los elfos.",
+  "origin.origins_apocalypse.superviviente.name": "Superviviente",
+  "origin.origins_apocalypse.superviviente.description": "Has sobrevivido, aunque no sabes muy bien como."
 }

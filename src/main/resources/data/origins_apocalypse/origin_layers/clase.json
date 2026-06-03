@@ -1,0 +1,11 @@
+{
+  "order": 1,
+  "name": "Clase",
+  "origins": [
+    "origins_apocalypse:superviviente",
+    "origins_apocalypse:titán",
+    "origins_apocalypse:cerebrito",
+    "origins_apocalypse:quimera",
+    "origins_apocalypse:corrompido"
+  ]
+}

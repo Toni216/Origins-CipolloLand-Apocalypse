@@ -8,5 +8,7 @@
   "origin.origins_apocalypse.orco.name": "Orc",
   "origin.origins_apocalypse.orco.description": "Not very smart, green, and grumpy beings.",
   "origin.origins_apocalypse.enano.name": "Dwarf",
-  "origin.origins_apocalypse.enano.description": "A race almost as long-lived as elves."
+  "origin.origins_apocalypse.enano.description": "A race almost as long-lived as elves.",
+  "origin.origins_apocalypse.superviviente.name": "Survivor",
+  "origin.origins_apocalypse.superviviente.description": "You have survived, although you don't quite know how."
 }
