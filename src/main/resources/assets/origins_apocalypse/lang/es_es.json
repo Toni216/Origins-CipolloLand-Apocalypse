@@ -10,5 +10,13 @@
   "origin.origins_apocalypse.enano.name": "Enano",
   "origin.origins_apocalypse.enano.description": "Raza casi igual de longeva que los elfos.",
   "origin.origins_apocalypse.superviviente.name": "Superviviente",
-  "origin.origins_apocalypse.superviviente.description": "Has sobrevivido, aunque no sabes muy bien como."
+  "origin.origins_apocalypse.superviviente.description": "Has sobrevivido, aunque no sabes muy bien como.",
+  "origin.origins_apocalypse.titan.name": "Titán",
+  "origin.origins_apocalypse.titan.description": "Una montaña de músculo y fuerza bruta. Imposible de ignorar.",
+  "origin.origins_apocalypse.quimera.name": "Quimera",
+  "origin.origins_apocalypse.quimera.description": "El resultado de un experimento que no debería haber sobrevivido... y sin embargo aquí está.",
+  "origin.origins_apocalypse.cerebrito.name": "Cerebrito",
+  "origin.origins_apocalypse.cerebrito.description": "No tienen fuerza, pero tienen algo más peligroso: saben exactamente lo que hacen.",
+  "origin.origins_apocalypse.corrompido.name": "Corrompido",
+  "origin.origins_apocalypse.corrompido.description": "Entre los vivos y los muertos. Ya no pertenecen a ninguno de los dos lados."
 }

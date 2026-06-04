@@ -10,5 +10,13 @@
   "origin.origins_apocalypse.enano.name": "Dwarf",
   "origin.origins_apocalypse.enano.description": "A race almost as long-lived as elves.",
   "origin.origins_apocalypse.superviviente.name": "Survivor",
-  "origin.origins_apocalypse.superviviente.description": "You have survived, although you don't quite know how."
+  "origin.origins_apocalypse.superviviente.description": "You have survived, although you don't quite know how.",
+  "origin.origins_apocalypse.titan.name": "Titan",
+  "origin.origins_apocalypse.titan.description": "A mountain of muscle and brute force. Impossible to ignore.",
+  "origin.origins_apocalypse.quimera.name": "Chimera",
+  "origin.origins_apocalypse.quimera.description": "The result of an experiment that should never have survived... and yet, here it is.",
+  "origin.origins_apocalypse.cerebrito.name": "Brainiac",
+  "origin.origins_apocalypse.cerebrito.description": "No strength, but something far more dangerous: they know exactly what they're doing.",
+  "origin.origins_apocalypse.corrompido.name": "Corrupted",
+  "origin.origins_apocalypse.corrompido.description": "Between the living and the dead. They belong to neither side anymore."
 }
