@@ -20,7 +20,7 @@ import virtuoel.pehkui.api.ScaleTypes;
  * Se comprueba en cada tick del
  * jugador en el servidor y solo se reescribe la escala cuando cambia, de modo
  * que el tamaño se restablece solo tras revivir, cambiar de dimensión,
- * reconectar o usar el comando {@code /origin}.</p>
+ * reconectar o usar el comando {@code /origin}
  */
 @Mod.EventBusSubscriber(modid = OriginsApocalypse.MOD_ID)
 public final class RaceSizeHandler {
@@ -71,8 +71,8 @@ public final class RaceSizeHandler {
         }
         return switch (race.getPath()) {
             case "humano" -> new float[]{1.0F, 1.0F};
-            case "alien" -> new float[]{0.25F, 0.25F};
-            case "elfo" -> new float[]{0.75F, 1.25F};
+            case "alien" -> new float[]{0.5F, 0.5F};
+            case "elfo" -> new float[]{1.0F, 1.5F};
             case "orco" -> new float[]{2.0F, 1.5F};
             case "enano" -> new float[]{1.0F, 0.5F};
             default -> null;

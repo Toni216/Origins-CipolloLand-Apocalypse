@@ -1,0 +1,9 @@
+{
+  "type": "apoli:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "apoli:change_resource",
+    "resource": "origins_apocalypse:corruption",
+    "change": 1
+  }
+}

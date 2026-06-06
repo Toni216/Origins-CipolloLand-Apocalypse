@@ -1,0 +1,19 @@
+{
+  "type": "apoli:action_over_time",
+  "interval": 40,
+  "condition": {
+    "type": "apoli:resource",
+    "resource": "origins_apocalypse:corruption",
+    "comparison": ">=",
+    "compare_to": 5
+  },
+  "entity_action": {
+    "type": "apoli:apply_effect",
+    "effect": {
+      "effect": "minecraft:speed",
+      "duration": 60,
+      "amplifier": 2,
+      "show_particles": false
+    }
+  }
+}
