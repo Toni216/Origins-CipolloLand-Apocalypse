@@ -1,5 +1,8 @@
 {
   "icon": "minecraft:stone_axe",
   "order": 3,
-  "impact": 0
+  "impact": 0,
+  "powers": [
+    "origins_apocalypse:size_alien"
+  ]
 }

@@ -1,6 +1,7 @@
 {
   "type": "apoli:action_over_time",
   "interval": 40,
+  "hidden": true,
   "condition": {
     "type": "apoli:resource",
     "resource": "origins_apocalypse:corruption",

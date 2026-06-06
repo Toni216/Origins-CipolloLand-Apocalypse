@@ -1,5 +1,6 @@
 {
   "type": "apoli:action_on_callback",
+  "hidden": true,
   "entity_action_respawned": {
     "type": "apoli:change_resource",
     "resource": "origins_apocalypse:corruption",

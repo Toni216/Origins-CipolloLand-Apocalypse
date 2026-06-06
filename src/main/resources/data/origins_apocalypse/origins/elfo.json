@@ -1,5 +1,8 @@
 {
   "icon": "minecraft:bow",
   "order": 2,
-  "impact": 0
+  "impact": 0,
+  "powers": [
+    "origins_apocalypse:size_alien"
+  ]
 }
