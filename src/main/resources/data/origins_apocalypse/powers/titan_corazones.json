@@ -1,5 +1,6 @@
 {
   "type": "apoli:attribute",
+  "hidden": "true",
   "modifier": {
     "attribute": "minecraft:generic.max_health",
     "operation": "addition",
