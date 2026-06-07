@@ -89,6 +89,7 @@ dependencies {
     implementation fg.deobf("maven.modrinth:caelus:3.2.0+1.20.1")
     implementation fg.deobf("maven.modrinth:pehkui:3.8.2+1.20.1-forge")
     implementation fg.deobf("maven.modrinth:apugli:2.10.0+1.20.1-forge")
+    runtimeOnly fg.deobf("maven.modrinth:legendary-survival-overhaul:1.20.1-2.4.2")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

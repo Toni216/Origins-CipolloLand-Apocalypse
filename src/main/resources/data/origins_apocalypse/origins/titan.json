@@ -1,5 +1,8 @@
 {
   "icon": "minecraft:netherite_chestplate",
   "order": 1,
-  "impact": 3
+  "impact": 3,
+  "powers": [
+    "origins_apocalypse:titan_corazones"
+  ]
 }
