@@ -1,0 +1,17 @@
+{
+  "type": "apoli:action_over_time",
+  "interval": 20,
+  "hidden": true,
+  "condition": {
+    "type": "apoli:relative_health",
+    "comparison": "<=",
+    "compare_to": 0.5
+  },
+  "entity_action": {
+    "type": "apoli:apply_effect",
+    "effects": [
+      { "effect": "minecraft:strength", "duration": 60, "amplifier": 1, "show_particles": false },
+      { "effect": "minecraft:resistance", "duration": 60, "amplifier": 1, "show_particles": false }
+    ]
+  }
+}

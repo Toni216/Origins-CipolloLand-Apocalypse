@@ -1,30 +1,40 @@
 {
   "origin.origins_apocalypse.humano.name": "Human",
   "origin.origins_apocalypse.humano.description": "An ordinary human doesn't change a thing, you idiot.",
+
   "origin.origins_apocalypse.alien.name": "Alien",
   "origin.origins_apocalypse.alien.description": "Beings from another planet, when they came to explore ours out of curiosity, were knocked out by gravity.",
   "power.origins_apocalypse.size_alien.name": "Chikiriro",
   "power.origins_apocalypse.size_alien.description": "Our planet's gravity has left you short; you're now 1 block tall.",
+
   "origin.origins_apocalypse.elfo.name": "Elf",
   "origin.origins_apocalypse.elfo.description": "An incredibly long-lived breed, it can live for centuries.",
   "power.origins_apocalypse.size_elfo.name": "Tall",
   "power.origins_apocalypse.size_elfo.description": "Your longevity makes you taller. You are 1.5 blocks tall.",
+
   "origin.origins_apocalypse.orco.name": "Orc",
   "origin.origins_apocalypse.orco.description": "Not very smart, green, and grumpy beings.",
   "power.origins_apocalypse.size_orco.name": "Corpulent",
   "power.origins_apocalypse.size_orco.description": "A huge mole: 3 high and 2 wide.",
+
   "origin.origins_apocalypse.enano.name": "Dwarf",
   "origin.origins_apocalypse.enano.description": "A race almost as long-lived as elves.",
   "power.origins_apocalypse.size_enano.name": "Fun-sized",
   "power.origins_apocalypse.size_enano.description": "Short, but of broad and robust build.",
+
   "origin.origins_apocalypse.superviviente.name": "Survivor",
   "origin.origins_apocalypse.superviviente.description": "You have survived, although you don't quite know how.",
+
   "origin.origins_apocalypse.titan.name": "Titan",
   "origin.origins_apocalypse.titan.description": "A mountain of muscle and brute force. Impossible to ignore.",
+  "power.origins_apocalypse.titan_furia.name": "Titanic Fury",
+  "power.origins_apocalypse.titan_furia.description": "The more wounded you are, the stronger you become: you gain Strength and Resistance below 75%, 50% and 25% health.",
+
   "origin.origins_apocalypse.quimera.name": "Chimera",
   "origin.origins_apocalypse.quimera.description": "The result of an experiment that should never have survived... and yet, here it is.",
   "origin.origins_apocalypse.cerebrito.name": "Brainiac",
   "origin.origins_apocalypse.cerebrito.description": "No strength, but something far more dangerous: they know exactly what they're doing.",
+
   "origin.origins_apocalypse.corrompido.name": "Corrupted",
   "origin.origins_apocalypse.corrompido.description": "Between the living and the dead. They belong to neither side anymore.",
   "power.origins_apocalypse.corruption.name": "Corruption",
