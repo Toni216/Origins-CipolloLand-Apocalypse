@@ -28,5 +28,7 @@
   "origin.origins_apocalypse.corrompido.name": "Corrompido",
   "origin.origins_apocalypse.corrompido.description": "Entre los vivos y los muertos. Ya no pertenecen a ninguno de los dos lados.",
   "power.origins_apocalypse.corruption.name": "Corrupción",
-  "power.origins_apocalypse.corruption.description": "Una barra que se llena sola con el tiempo. Al 25% ganas Velocidad III, al 50% Visión nocturna y al 75% Resistencia III. Si se llena del todo, el veneno te deja a un paso de la muerte. Se reinicia al morir o al inyectarte sangre de zombie con una jeringuilla."
+  "power.origins_apocalypse.corruption.description": "Una barra que se llena sola con el tiempo. Al 25% ganas Velocidad III, al 50% Visión nocturna y al 75% Resistencia III. Si se llena del todo, el veneno te deja a un paso de la muerte. Se reinicia al morir o al inyectarte sangre de zombie con una jeringuilla.",
+  "power.origins_apocalypse.carronero.name": "Carroñero",
+  "power.origins_apocalypse.carronero.description": "Puedes comer carne podrida sin sufrir sus efectos negativos."
 }

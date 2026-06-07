@@ -28,5 +28,7 @@
   "origin.origins_apocalypse.corrompido.name": "Corrupted",
   "origin.origins_apocalypse.corrompido.description": "Between the living and the dead. They belong to neither side anymore.",
   "power.origins_apocalypse.corruption.name": "Corruption",
-  "power.origins_apocalypse.corruption.description": "A bar that slowly fills on its own. At 25% you gain Speed III, at 50% Night vision and at 75% Resistance III. If it fills completely, poison leaves you one step from death. Resets on death."
+  "power.origins_apocalypse.corruption.description": "A bar that slowly fills on its own. At 25% you gain Speed III, at 50% Night vision and at 75% Resistance III. If it fills completely, poison leaves you one step from death. Resets on death.",
+  "power.origins_apocalypse.carronero.name": "Scavenger",
+  "power.origins_apocalypse.carronero.description": "You eat rotten flesh without suffering its effects."
 }

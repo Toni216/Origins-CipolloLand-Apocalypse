@@ -1,0 +1,8 @@
+{
+  "type": "apoli:modify_food",
+  "item_condition": {
+    "type": "apoli:ingredient",
+    "ingredient": { "item": "minecraft:rotten_flesh" }
+  },
+  "prevent_effects": true
+}

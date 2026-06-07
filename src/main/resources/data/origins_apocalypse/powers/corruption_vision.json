@@ -12,8 +12,8 @@
     "type": "apoli:apply_effect",
     "effect": {
       "effect": "minecraft:night_vision",
-      "duration": 60,
-      "amplifier": 2,
+      "duration": 400,
+      "amplifier": 0,
       "show_particles": false
     }
   }
