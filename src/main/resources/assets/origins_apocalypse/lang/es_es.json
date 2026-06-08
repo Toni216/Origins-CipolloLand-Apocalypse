@@ -49,5 +49,8 @@
   "power.origins_apocalypse.corruption.name": "Corrupción",
   "power.origins_apocalypse.corruption.description": "Una barra que se llena sola con el tiempo. Al 25% ganas Velocidad III, al 50% Visión nocturna y al 75% Resistencia III. Si se llena del todo, el veneno te deja a un paso de la muerte. Se reinicia al morir o al inyectarte sangre de zombie con una jeringuilla.",
   "power.origins_apocalypse.carronero.name": "Carroñero",
-  "power.origins_apocalypse.carronero.description": "Puedes comer carne podrida sin sufrir sus efectos negativos."
+  "power.origins_apocalypse.carronero.description": "Puedes comer carne podrida sin sufrir sus efectos negativos.",
+
+  "origin.origins_apocalypse.cypollorg.name": "Cypollorg",
+  "origin.origins_apocalypse.cypollorg.description": "Militares mejorados con implantes, eres 50% humano y 50% máquina."
 }

@@ -49,5 +49,8 @@
   "power.origins_apocalypse.corruption.name": "Corruption",
   "power.origins_apocalypse.corruption.description": "A bar that slowly fills on its own. At 25% you gain Speed III, at 50% Night vision and at 75% Resistance III. If it fills completely, poison leaves you one step from death. Resets on death.",
   "power.origins_apocalypse.carronero.name": "Scavenger",
-  "power.origins_apocalypse.carronero.description": "You eat rotten flesh without suffering its effects."
+  "power.origins_apocalypse.carronero.description": "You eat rotten flesh without suffering its effects.",
+
+  "origin.origins_apocalypse.cypollorg.name": "Cypollorg",
+  "origin.origins_apocalypse.cypollorg.description": "Enhanced soldiers with implants, you are 50% human and 50% machine."
 }
