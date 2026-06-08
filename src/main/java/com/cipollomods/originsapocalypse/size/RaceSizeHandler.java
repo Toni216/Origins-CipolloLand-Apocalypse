@@ -15,12 +15,11 @@ import virtuoel.pehkui.api.ScaleType;
 import virtuoel.pehkui.api.ScaleTypes;
 
 /**
- * Aplica el tamaño de cada raza mediante Pehkui.
+ * Aplica el tamaño del jugador según su raza y su clase mediante Pehkui.
  *
- * Se comprueba en cada tick del
- * jugador en el servidor y solo se reescribe la escala cuando cambia, de modo
- * que el tamaño se restablece solo tras revivir, cambiar de dimensión,
- * reconectar o usar el comando {@code /origin}
+ * La raza define el ancho y el alto base. Si además la clase es Titán, la
+ * altura se multiplica por un factor para convertirlo en un gigante,
+ * manteniendo el ancho de su raza.
  */
 @Mod.EventBusSubscriber(modid = OriginsApocalypse.MOD_ID)
 public final class RaceSizeHandler {
@@ -30,11 +29,30 @@ public final class RaceSizeHandler {
                     OriginsDynamicRegistries.LAYERS_REGISTRY,
                     new ResourceLocation(OriginsApocalypse.MOD_ID, "raza"));
 
-    private RaceSizeHandler() {
+    private static final ResourceKey<OriginLayer> CLASE_LAYER =
+            ResourceKey.create(
+                    OriginsDynamicRegistries.LAYERS_REGISTRY,
+                    new ResourceLocation(OriginsApocalypse.MOD_ID, "clase"));
+
+    private static final ResourceLocation TITAN =
+            new ResourceLocation(OriginsApocalypse.MOD_ID, "titan");
+
+    /**
+     * Factor de altura que aplica la clase Titán según la raza. Los enanos
+     * parten con un factor más alto porque lo quiero más alto.
+     *
+     * @param race ruta del identificador de la raza
+     * @return factor por el que multiplicar la altura base
+     */
+    private static float titanHeightFactor(String race) {
+        return switch (race) {
+            case "enano" -> 3.4F;
+            default -> 2.2F;
+        };
     }
 
     /**
-     * Revisa la raza del jugador en cada tick del servidor y ajusta su escala.
+     * Revisa raza y clase en cada tick del servidor y ajusta la escala.
      *
      * @param event evento de tick del jugador
      */
@@ -53,10 +71,19 @@ public final class RaceSizeHandler {
             if (size == null) {
                 return;
             }
-            applyScale(player, ScaleTypes.WIDTH, size[0]);
-            applyScale(player, ScaleTypes.HEIGHT, size[1]);
+
+            float width = size[0];
+            float height = size[1];
+
+            if (container.getOrigin(CLASE_LAYER).location().equals(TITAN)) {
+                height *= titanHeightFactor(race.getPath());
+            }
+
+            applyScale(player, ScaleTypes.WIDTH, width);
+            applyScale(player, ScaleTypes.HEIGHT, height);
         });
     }
+
 
     /**
      * Devuelve la escala {ancho, alto} de una raza, o {@code null} si el
@@ -71,16 +98,16 @@ public final class RaceSizeHandler {
         }
         return switch (race.getPath()) {
             case "humano" -> new float[]{1.0F, 1.0F};
-            case "alien" -> new float[]{0.5F, 0.5F};
-            case "elfo" -> new float[]{1.0F, 1.5F};
+            case "alien" -> new float[]{1.5F, 0.25F};
+            case "elfo" -> new float[]{0.75F, 1.25F};
             case "orco" -> new float[]{2.0F, 1.5F};
-            case "enano" -> new float[]{1.0F, 0.5F};
+            case "enano" -> new float[]{2.0F, 0.5F};
             default -> null;
         };
     }
 
     /**
-     * Fija una escala de Pehkui solo si difiere de la actual.
+     * Fija una escala de Pehkui solo si se diferencia de la actual.
      *
      * @param player jugador objetivo
      * @param type   tipo de escala (ancho o alto)
