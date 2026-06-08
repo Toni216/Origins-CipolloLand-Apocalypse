@@ -36,8 +36,13 @@
 
   "origin.origins_apocalypse.quimera.name": "Chimera",
   "origin.origins_apocalypse.quimera.description": "The result of an experiment that should never have survived... and yet, here it is.",
+
   "origin.origins_apocalypse.cerebrito.name": "Brainiac",
   "origin.origins_apocalypse.cerebrito.description": "No strength, but something far more dangerous: they know exactly what they're doing.",
+  "power.origin.origins_apocalypse.cerebrito_fragil.name": "Strength of a Fart",
+  "power.origin.origins_apocalypse.cerebrito_fragil.description": "Your body is weak, so you have 2 fewer hearts.",
+  "power.origin.origins_apocalypse.cerebrito_agil.name": "Quick Reflexes",
+  "power.origin.origins_apocalypse.cerebrito_agil.description": "You move faster.",
 
   "origin.origins_apocalypse.corrompido.name": "Corrupted",
   "origin.origins_apocalypse.corrompido.description": "Between the living and the dead. They belong to neither side anymore.",

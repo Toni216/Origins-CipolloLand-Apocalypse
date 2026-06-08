@@ -1,5 +1,9 @@
 {
   "icon": "minecraft:enchanted_book",
   "order": 3,
-  "impact": 2
+  "impact": 2,
+  "powers": [
+    "origins_apocalypse:cerebrito_fragil",
+    "origins_apocalypse:cerebrito_agil"
+  ]
 }

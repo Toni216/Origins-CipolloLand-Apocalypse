@@ -10,7 +10,7 @@
   "origin.origins_apocalypse.elfo.name": "Elfo",
   "origin.origins_apocalypse.elfo.description": "Raza increíblemente longeva, puede llevar siglos viviendo.",
   "power.origins_apocalypse.size_elfo.name": "Esbelto",
-  "power.origins_apocalypse.size_elfo.description": "Tu naturaleza longeva te hace más alto. Mides 1'5 bloques",
+  "power.origins_apocalypse.size_elfo.description": "Tu naturaleza longeva te hace más alto. Mides 1'5 bloques.",
 
   "origin.origins_apocalypse.orco.name": "Orco",
   "origin.origins_apocalypse.orco.description": "Seres no muy listos, verdes y malhumorados.",
@@ -39,6 +39,10 @@
 
   "origin.origins_apocalypse.cerebrito.name": "Cerebrito",
   "origin.origins_apocalypse.cerebrito.description": "No tienen fuerza, pero tienen algo más peligroso: saben exactamente lo que hacen.",
+  "power.origin.origins_apocalypse.cerebrito_fragil.name": "Fortaleza de un peo",
+  "power.origin.origins_apocalypse.cerebrito_fragil.description": "Tu cuerpo es débil, por lo que tienes 2 corazones menos.",
+  "power.origin.origins_apocalypse.cerebrito_agil.name": "Reflejos rápidos",
+  "power.origin.origins_apocalypse.cerebrito_agil.description": "Te mueves más rápido.",
 
   "origin.origins_apocalypse.corrompido.name": "Corrompido",
   "origin.origins_apocalypse.corrompido.description": "Entre los vivos y los muertos. Ya no pertenecen a ninguno de los dos lados.",
