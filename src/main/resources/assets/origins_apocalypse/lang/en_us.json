@@ -31,6 +31,8 @@
   "power.origins_apocalypse.titan_furia.description": "The more wounded you are, the stronger you become: you gain Strength and Resistance below 75%, 50% and 25% health.",
   "power.origins_apocalypse.titan_punos.name": "Titan's Fists",
   "power.origins_apocalypse.titan_punos.description": "Your bare-handed punches deal as much damage as a stone sword.",
+  "power.origins_apocalypse.titan_hambre.name": "historical hunger",
+  "power.origins_apocalypse.titan_hambre.description": "Your massive body burns through food faster.",
 
   "origin.origins_apocalypse.quimera.name": "Chimera",
   "origin.origins_apocalypse.quimera.description": "The result of an experiment that should never have survived... and yet, here it is.",
