@@ -52,5 +52,7 @@
   "power.origins_apocalypse.carronero.description": "You eat rotten flesh without suffering its effects.",
 
   "origin.origins_apocalypse.cypollorg.name": "Cypollorg",
-  "origin.origins_apocalypse.cypollorg.description": "Enhanced soldiers with implants, you are 50% human and 50% machine."
+  "origin.origins_apocalypse.cypollorg.description": "Enhanced soldiers with implants, you are 50% human and 50% machine.",
+  "power.origins_apocalypse.cypollorg_agua.name": "Short circuit",
+  "power.origins_apocalypse.cypollorg_agua.description": "Water damages your circuits: it harms you while you're in it."
 }

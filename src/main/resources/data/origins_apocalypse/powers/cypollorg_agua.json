@@ -1,0 +1,9 @@
+{
+  "type": "apoli:damage_over_time",
+  "interval": 20,
+  "damage": 6.0,
+  "condition": {
+    "type": "apoli:submerged_in",
+    "fluid": "minecraft:water"
+  }
+}

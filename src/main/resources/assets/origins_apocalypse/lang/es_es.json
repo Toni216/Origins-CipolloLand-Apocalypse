@@ -52,5 +52,7 @@
   "power.origins_apocalypse.carronero.description": "Puedes comer carne podrida sin sufrir sus efectos negativos.",
 
   "origin.origins_apocalypse.cypollorg.name": "Cypollorg",
-  "origin.origins_apocalypse.cypollorg.description": "Militares mejorados con implantes, eres 50% humano y 50% máquina."
+  "origin.origins_apocalypse.cypollorg.description": "Militares mejorados con implantes, eres 50% humano y 50% máquina.",
+  "power.origins_apocalypse.cypollorg_agua.name": "Cortocircuito",
+  "power.origins_apocalypse.cypollorg_agua.description": "El agua daña tus circuitos: lo cual te hace daño."
 }
