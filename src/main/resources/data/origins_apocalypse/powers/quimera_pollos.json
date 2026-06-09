@@ -1,0 +1,8 @@
+{
+  "type": "apoli:action_over_time",
+  "interval": 24000,
+  "entity_action": {
+    "type": "apoli:spawn_entity",
+    "entity_type": "minecraft:chicken"
+  }
+}

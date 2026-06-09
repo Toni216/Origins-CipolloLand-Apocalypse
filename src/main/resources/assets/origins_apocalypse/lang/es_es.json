@@ -36,8 +36,14 @@
 
   "origin.origins_apocalypse.quimera.name": "Quimera",
   "origin.origins_apocalypse.quimera.description": "El resultado de un experimento que no debería haber sobrevivido... y sin embargo aquí está.",
+  "power.origins_apocalypse.quimera_caida.name": "Alas de gallina",
+  "power.origins_apocalypse.quimera_caida.description": "Puedes planear, pero de aquella manera, así que recibes menos daño de caída",
+  "power.origins_apocalypse.quimera_vision.name": "Ojos de gato",
+  "power.origins_apocalypse.quimera_vision.description": "Ves en la oscuridad como un campeón.",
+  "power.origins_apocalypse.quimera_pollos.name": "Cagador de pollos",
+  "power.origins_apocalypse.quimera_pollos.description" : "Cada día que estás con vida, sale un pollo de ti. Las alas no eran lo único que tenías de una gallina >:D",
 
-  "origin.origins_apocalypse.cerebrito.name": "Cerebrito",
+  "origin.origins_apocalypse.cerebrito.name",: "Cerebrito",
   "origin.origins_apocalypse.cerebrito.description": "No tienen fuerza, pero tienen algo más peligroso: saben exactamente lo que hacen.",
   "power.origin.origins_apocalypse.cerebrito_fragil.name": "Fortaleza de un peo",
   "power.origin.origins_apocalypse.cerebrito_fragil.description": "Tu cuerpo es débil, por lo que tienes 2 corazones menos.",

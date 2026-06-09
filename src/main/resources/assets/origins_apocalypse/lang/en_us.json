@@ -36,6 +36,12 @@
 
   "origin.origins_apocalypse.quimera.name": "Chimera",
   "origin.origins_apocalypse.quimera.description": "The result of an experiment that should never have survived... and yet, here it is.",
+  "power.origins_apocalypse.quimera_caida.name": "Chicken wings",
+  "power.origins_apocalypse.quimera_caida.description": "You can glide, but in a way that makes you take less fall damage.",
+  "power.origins_apocalypse.quimera_vision.name": "Cat eyes",
+  "power.origins_apocalypse.quimera_vision.description": "You see in the dark like a champion.",
+  "power.origins_apocalypse.quimera_pollos.name": "Chicken pooper",
+  "power.origins_apocalypse.quimera_pollos.description" : "Every day you live, a chicken hatches from you. Wings weren't the only thing you had in common with a hen >:D",
 
   "origin.origins_apocalypse.cerebrito.name": "Brainiac",
   "origin.origins_apocalypse.cerebrito.description": "No strength, but something far more dangerous: they know exactly what they're doing.",
