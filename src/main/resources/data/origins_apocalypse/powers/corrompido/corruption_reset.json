@@ -3,7 +3,7 @@
   "hidden": true,
   "entity_action_respawned": {
     "type": "apoli:change_resource",
-    "resource": "origins_apocalypse:corruption",
+    "resource": "origins_apocalypse:corrompido/corruption",
     "change": 0,
     "operation": "set"
   }

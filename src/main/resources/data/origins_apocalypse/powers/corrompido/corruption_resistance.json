@@ -4,16 +4,16 @@
   "hidden": true,
   "condition": {
     "type": "apoli:resource",
-    "resource": "origins_apocalypse:corruption",
+    "resource": "origins_apocalypse:corrompido/corruption",
     "comparison": ">=",
-    "compare_to": 10
+    "compare_to": 15
   },
   "entity_action": {
     "type": "apoli:apply_effect",
     "effect": {
-      "effect": "minecraft:night_vision",
-      "duration": 400,
-      "amplifier": 0,
+      "effect": "minecraft:resistance",
+      "duration": 60,
+      "amplifier": 2,
       "show_particles": false
     }
   }

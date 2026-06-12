@@ -1,0 +1,10 @@
+{
+  "icon": "minecraft:rotten_flesh",
+  "order": 2,
+  "impact": 3,
+  "powers": [
+    "origins_apocalypse:quimera/quimera_vision",
+    "origins_apocalypse:quimera/quimera_caida",
+    "origins_apocalypse:quimera/quimera_pollos"
+  ]
+}

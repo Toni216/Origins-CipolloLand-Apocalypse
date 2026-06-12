@@ -1,0 +1,15 @@
+{
+  "icon": "minecraft:zombie_head",
+  "order": 4,
+  "impact": 3,
+  "powers": [
+    "origins_apocalypse:corrompido/corruption",
+    "origins_apocalypse:corrompido/corruption_fill",
+    "origins_apocalypse:corrompido/corruption_reset",
+    "origins_apocalypse:corrompido/corruption_speed",
+    "origins_apocalypse:corrompido/corruption_vision",
+    "origins_apocalypse:corrompido/corruption_resistance",
+    "origins_apocalypse:corrompido/corruption_poison",
+    "origins_apocalypse:corrompido/carronero"
+  ]
+}

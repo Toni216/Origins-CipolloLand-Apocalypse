@@ -34,20 +34,40 @@ public final class RaceSizeHandler {
                     OriginsDynamicRegistries.LAYERS_REGISTRY,
                     new ResourceLocation(OriginsApocalypse.MOD_ID, "clase"));
 
-    private static final ResourceLocation TITAN =
-            new ResourceLocation(OriginsApocalypse.MOD_ID, "titan");
+
+    private static final String TITAN = "titan";
+
 
     /**
-     * Factor de altura que aplica la clase Titán según la raza. Los enanos
-     * parten con un factor más alto porque lo quiero más alto.
+     * Devuelve el último segmento del path de un identificador.
      *
-     * @param race ruta del identificador de la raza
-     * @return factor por el que multiplicar la altura base
+     * @param id identificador del origen
+     * @return nombre final sin la ruta de carpetas
      */
-    private static float titanHeightFactor(String race) {
+    private static String leaf(ResourceLocation id) {
+        String path = id.getPath();
+        int slash = path.lastIndexOf('/');
+        return slash >= 0 ? path.substring(slash + 1) : path;
+    }
+
+    /**
+     * Factor de altura que aplica la clase Titán, multiplica
+     * el alto de las razas.
+     */
+    private static final float titanHeightFactor = 2.2F;
+
+    /**
+     * Factor en el que multiplica el ancho base de cada raza
+     * en caso de que tenga de clase Titán. Así el elfo
+     * no es Slenderman xD
+     *
+     * @param race nombre pelado de la raza
+     * @return factor de anchura del Titán
+     */
+    private static float titanWidthFactor(String race) {
         return switch (race) {
-            case "enano" -> 3.4F;
-            default -> 2.2F;
+            case "elfo" -> 2.0F;
+            default -> 1.0F;
         };
     }
 
@@ -75,8 +95,10 @@ public final class RaceSizeHandler {
             float width = size[0];
             float height = size[1];
 
-            if (container.getOrigin(CLASE_LAYER).location().equals(TITAN)) {
-                height *= titanHeightFactor(race.getPath());
+            String clase = leaf(container.getOrigin(CLASE_LAYER).location());
+            if (TITAN.equals(clase)) {
+                height *= titanHeightFactor;
+                width *= titanWidthFactor(leaf(race));
             }
 
             applyScale(player, ScaleTypes.WIDTH, width);
@@ -96,12 +118,12 @@ public final class RaceSizeHandler {
         if (!OriginsApocalypse.MOD_ID.equals(race.getNamespace())) {
             return null;
         }
-        return switch (race.getPath()) {
+        return switch (leaf(race)) {
             case "humano" -> new float[]{1.0F, 1.0F};
-            case "alien" -> new float[]{1.5F, 0.25F};
+            case "alien" -> new float[]{0.5F, 0.5F};
             case "elfo" -> new float[]{0.75F, 1.25F};
             case "orco" -> new float[]{2.0F, 1.5F};
-            case "enano" -> new float[]{2.0F, 0.5F};
+            case "enano" -> new float[]{1.5F, 0.75F};
             default -> null;
         };
     }

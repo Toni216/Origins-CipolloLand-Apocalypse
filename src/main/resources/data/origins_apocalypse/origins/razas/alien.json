@@ -3,6 +3,6 @@
   "order": 1,
   "impact": 0,
   "powers": [
-    "origins_apocalypse:size_alien"
+    "origins_apocalypse:alien/size_alien"
   ]
 }

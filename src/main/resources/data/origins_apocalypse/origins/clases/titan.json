@@ -1,0 +1,14 @@
+{
+  "icon": "minecraft:netherite_chestplate",
+  "order": 1,
+  "impact": 3,
+  "powers": [
+    "origins_apocalypse:titan/titan_corazones",
+    "origins_apocalypse:titan/titan_furia",
+    "origins_apocalypse:titan/titan_furia_1",
+    "origins_apocalypse:titan/titan_furia_2",
+    "origins_apocalypse:titan/titan_furia_3",
+    "origins_apocalypse:titan/titan_punos",
+    "origins_apocalypse:titan/titan_hambre"
+  ]
+}

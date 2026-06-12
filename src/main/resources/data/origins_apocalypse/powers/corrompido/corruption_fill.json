@@ -4,7 +4,7 @@
   "hidden": true,
   "entity_action": {
     "type": "apoli:change_resource",
-    "resource": "origins_apocalypse:corruption",
+    "resource": "origins_apocalypse:corrompido/corruption",
     "change": 1
   }
 }

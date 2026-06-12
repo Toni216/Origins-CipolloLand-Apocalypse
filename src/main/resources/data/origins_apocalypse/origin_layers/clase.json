@@ -2,21 +2,21 @@
   "order": 1,
   "name": "Clase",
   "origins": [
-    "origins_apocalypse:superviviente",
+    "origins_apocalypse:clases/superviviente",
     {
       "condition": {
         "type": "origins:origin",
-        "origin": "origins_apocalypse:alien",
+        "origin": "origins_apocalypse:razas/alien",
         "layer": "origins_apocalypse:raza",
         "inverted": true
       },
       "origins": [
-        "origins_apocalypse:titan"
+        "origins_apocalypse:clases/titan"
       ]
     },
-    "origins_apocalypse:quimera",
-    "origins_apocalypse:cerebrito",
-    "origins_apocalypse:corrompido",
-    "origins_apocalypse:cypollorg"
+    "origins_apocalypse:clases/quimera",
+    "origins_apocalypse:clases/cerebrito",
+    "origins_apocalypse:clases/corrompido",
+    "origins_apocalypse:clases/cypollorg"
   ]
 }
